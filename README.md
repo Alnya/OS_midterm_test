@@ -6,6 +6,6 @@
 
 <br>
 
-*The answer is in [colorful-sheet](https://github.com/Alnya/OS_midterm_test/blob/master/colorful-sheet.png?raw=true)*
+*The answer is in [colorful-sheet](colorful-sheet.png)*
 
 <img src="https://github.com/Alnya/OS_midterm_test.git/colorful-sheet.png">
