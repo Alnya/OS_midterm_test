@@ -2,6 +2,8 @@ import subprocess
 import pyautogui
 import time
 import pyperclip
+from settings import get_txt_path
+from settings import get_ans_path
 
 
 def write_ans(read_path, write_path):
@@ -58,5 +60,4 @@ def write_ans(read_path, write_path):
 
 
 if __name__ == '__main__':
-    write_ans(r"C:\Alnya\tmp\tmp.txt",
-              r"C:\Alnya\tmp\ans.csv")
+    write_ans(get_txt_path(), get_ans_path())

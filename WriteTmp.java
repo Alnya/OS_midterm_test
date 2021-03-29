@@ -11,7 +11,8 @@ public class WriteTmp {
 
     public void write() {
         try {
-            File file = new File("C:\\Alnya\\tmp\\tmp.txt");
+            settings setting = new settings();
+            File file = new File(setting.getFilePath());
             FileWriter fileWriter = new FileWriter(file);
             fileWriter.write(this.writeSentence);
             fileWriter.close();
