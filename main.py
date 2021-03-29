@@ -2,6 +2,8 @@ import subprocess
 import pyautogui
 import time
 import WriteAns
+from settings import get_txt_path
+from settings import get_ans_path
 
 
 def main():
@@ -13,8 +15,7 @@ def main():
     pyautogui.typewrite("java schedule1 1108.csv")
     pyautogui.press("enter")
     time.sleep(5)
-    WriteAns.write_ans(r"C:\Alnya\tmp\tmp.txt",
-                       r"C:\Alnya\tmp\ans.csv")
+    WriteAns.write_ans(get_txt_path(), get_ans_path())
 
 
 if __name__ == '__main__':
